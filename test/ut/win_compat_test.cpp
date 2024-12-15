@@ -7,7 +7,7 @@
 //
 
 // ensure no conflict between `Windows.h` and `ut.hpp`
-#include <Windows.h>
+#include <windows.h>
 
 #ifndef __MINGW32__
   #if not defined(min) || not defined(max)
